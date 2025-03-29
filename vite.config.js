@@ -1,5 +1,9 @@
-import { defineConfig } from 'vite';
-
+import { defineConfig } from "vite";
+import react from "@vitejs/plugin-react";
+import tailwindcss from '@tailwindcss/vite'
 export default defineConfig({
-  base: '/blackjack-game/', // Asegúrate de que coincida con el nombre del repositorio
+  plugins: [react()],
+  server: {
+    port: 3000,
+  },
 });
