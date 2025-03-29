@@ -1,26 +1,40 @@
 {
-  "name": "blackjack-vite",
-  "private": true,
-  "version": "0.0.0",
-  "type": "module",
+  "name": "js-blackjack-vite-main1",
+  "version": "1.0.0",
+  "description": "=======\r # BlackJack Vite",
+  "main": "main.js",
+  "directories": {
+    "doc": "docs"
+  },
   "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
     "dev": "vite",
     "build": "vite build",
-    "preview": "vite preview",
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d dist"
+    "preview": "vite preview"
   },
-  "devDependencies": {
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Melvo12/blackjack-game.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Melvo12/blackjack-game/issues"
+  },
+  "homepage": "https://github.com/Melvo12/blackjack-game#readme",
+  "dependencies": {
     "@tailwindcss/forms": "^0.5.10",
+    "@tailwindcss/vite": "^4.0.17",
     "@vitejs/plugin-react": "^4.3.4",
     "autoprefixer": "^10.4.21",
+    "flowbite": "^3.1.2",
     "gh-pages": "^6.3.0",
     "postcss": "^8.5.3",
-    "tailwindcss": "^4.0.17",
+    "underscore": "^1.13.7",
     "vite": "^6.2.3"
   },
-  "dependencies": {
-    "@tailwindcss/vite": "^4.0.17",
-    "underscore": "^1.13.6"
+  "devDependencies": {
+    "tailwindcss": "^4.0.17"
   }
 }

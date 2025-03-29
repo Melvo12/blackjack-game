@@ -1,9 +1,11 @@
 
 
-html, body {
-  margin: 0px;
-  background-color: #2F4F30;
-  color: white;
+html, 
+
+body {
+  background: url('Otros/fondo-mesa-poquer.jpg') no-repeat center center fixed !important;
+  background-size: cover !important;
+  
 }
 
 
@@ -17,11 +19,33 @@ html, body {
 
 .carta {
   position: relative;
-  width: 150px;
-  left: 100px;
+  width: 120px;
+  left: 140px;
   margin-left: -75px;
+  background-color: white;
+  color: #333;
+  border-radius: 15px;
+  box-shadow: 0 40px 10px rgba(0, 0, 0, 0.2);
 }
 
 #computadora-cartas, #jugador-cartas {
   height: 240px;
+}
+.git-icon {
+  position: fixed;  /* Fija el icono en la pantalla */
+  bottom: 20px;     /* Lo coloca 20px desde abajo */
+  right: 70px;      /* Lo coloca 20px desde la derecha */
+  width: 60px;      /* Ajusta el tamaño */
+  height: 40px;
+  cursor: pointer;
+}
+
+
+.Linkedin-icon {
+  position: fixed;  /* Fija el icono en la pantalla */
+  bottom: 19px;     /* Lo coloca 20px desde abajo */
+  right: 20px;      /* Lo coloca 20px desde la derecha */
+  width: 40px;      /* Ajusta el tamaño */
+  height: 40px;
+  cursor: pointer;
 }

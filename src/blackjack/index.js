@@ -1,5 +1,6 @@
 import _ from 'underscore';
 import "tailwindcss";
+import 'flowbite';
 // import crearDeck, { miNombre } from './usecases/crear-deck';
 // import { crearDeck as crearNuevoDeck } from './usecases/crear-deck';
 //Esto sirve para importar las funciones
