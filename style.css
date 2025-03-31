@@ -49,3 +49,15 @@ body {
   height: 40px;
   cursor: pointer;
 }
+
+
+
+
+#jugador-cartas, #computadora-cartas {
+  display: flex; /* Alinea los elementos en fila */
+  flex-direction: row; /* Asegura que estén en horizontal */
+  gap: 10px; /* Espacio entre cartas */
+  width: 180px; /* Ajusta según el tamaño deseado */
+  height: auto; /* Mantiene la proporción */
+  max-width: 100px; /* Evita que se estiren demasiado */
+}
