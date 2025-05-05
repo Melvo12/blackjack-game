@@ -3,7 +3,7 @@ This is a simple Blackjack game developed using JavaScript, HTML/CSS, and Vite. 
 
 🔗 https://melvo12.github.io/blackjack-game/
 
-###⚙️ Project Setup (Local Development)
+##⚙️ Project Setup (Local Development)
 Clone the repository
 
 Install dependencies:
@@ -16,14 +16,14 @@ npm run dev
 Open the project in your browser:
 http://localhost:5173/
 
-🚀 Build for Production
+##🚀 Build for Production
 Run the build command:
 
 npm run build
 
 Deploy the contents of the dist folder to your preferred hosting service.
 
-🧠 Why this project?
+##🧠 Why this project?
 Demonstrates use of logic, loops, and conditionals.
 
 Implements clean DOM manipulation and event handling.
