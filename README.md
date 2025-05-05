@@ -1,4 +1,4 @@
-#🃏 Blackjack Game (JavaScript + Vite)
+###🃏 Blackjack Game (JavaScript + Vite)
 
 This is a simple Blackjack game developed using JavaScript, HTML/CSS, and Vite. It demonstrates core programming logic, DOM manipulation, and modular code structure. While it's a front-end project, it lays the groundwork for understanding secure interactions, data handling, and code organization—skills that are relevant in both development and cybersecurity.
 
